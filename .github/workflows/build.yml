@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: delaunator-java-jar
-          path: target/delaunator-java-1.0.0.jar
+          path: target/*.jar
